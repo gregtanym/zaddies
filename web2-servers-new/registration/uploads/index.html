@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- <link rel="stylesheet" href="style.css">
+	<script src="index.js"></script> -->
+</head>
+<body>
+
+	<!-- registration form -->
+	<form action="http://127.0.0.1:80/createNewAccount" method="post" class="hform">
+        <fieldset>
+          <!-- if you rewrite the form online, the values will change, the value here is just to pre set them-->
+          <legend>REGISTRATION FORM</legend>
+          <p><label>Company Name</label>
+            <input type="text" name="company_name" value="Amazon" id="company_name"></p>
+          <p><label>Deposit Amount</label>
+            <input type="text" name="deposit_amount" value="1000000" id="deposit_amount"> USD</p>
+		      <p><label>Country</label>
+			      <input type="text" name="country" value="USA" id="country"></p>
+            <p><label>Password</label>
+              <input type="text" name="password" value="password" id="password"></p>
+		      <p><label>Email</label>
+            <input type="text" name="email" value="amazon@gmail.com" id="email"></p>
+          <p><label>Comment</label>
+            <textarea name="comment" value="nil" rows="8" cols="40"></textarea></p>
+          <p class="checkbox"><input type="checkbox" name="remember" value="" id="remember"> <label>Remember</label></p>
+        </fieldset>
+        <p><input type="submit" name="submit" value="Save" class="button"></p>
+      </form>
+
+</body>
+</html>
